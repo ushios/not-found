@@ -1,2 +1,3 @@
-no-content
-===========
+notfound
+==========
+Return 404 status
