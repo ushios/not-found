@@ -6,4 +6,4 @@ EXPOSE 8080
 ADD . /go/src/github.com/ushios/not-found
 RUN go install github.com/ushios/not-found
 
-ENTRYPOINT ["/go/bin/not-found", "-port", "8080"]
+ENTRYPOINT ["/go/bin/not-found", "-port", "8080", "-healthcheck", "hc"]
